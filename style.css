@@ -1,4 +1,4 @@
 html{background: #121213;}
 body{margin:0px;}
 .header-block{display:flex;margin: 37px 0px 33px 36px;}
-.header-block div{height:50px;}
+.header-block div{height:50px;margin-right:36px}
