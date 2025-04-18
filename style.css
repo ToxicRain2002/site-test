@@ -1,6 +1,6 @@
 html{background: #121213;}
-body{margin:0px;display: flex;justify-content:center;}
-header{max-width: 1920px;}
+body{margin:0px;display: flex;justify-content:center;max-width: 1920px;}
+header{}
 .header-block{display:flex;height:120px;width:100%;}
 .header-block-logo{display:flex;margin: 37px 42px 33px 36px;}
 .header-block-logo div{height:50px;}
