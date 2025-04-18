@@ -12,7 +12,7 @@ section{display: flex;overflow-x: hidden;}
 .div2{animation: marquee2 20s infinite linear;animation-delay: -10s;}
 @keyframes marquee1 {
 0% {transform: translateX(100%);}
-100%{transform: translateX(-100%);}
+100%{transform: translateX(-100%);}}
 @keyframes marquee2{
 0%{transform: translateX(0%);}
 100%{transform: translateX(-200%);}}
