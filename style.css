@@ -8,10 +8,9 @@ body{margin:0px;}
        overflow-x: hidden;
     }
   .header-block-txt-animate{
-      font-size: 70px;
-      font-size: sans-serif;
-      line-height: 1.3;
-      padding: 24px 0;
+      font-size: 48px;
+      color: #0B68F0;
+      line-height: 130%;
       white-space: nowrap;
       display: inline-block;
     }
