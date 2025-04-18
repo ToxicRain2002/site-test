@@ -1,4 +1,44 @@
 html{background: #121213;}
 body{margin:0px;}
 .header-block{display:flex;margin: 37px 0px 33px 36px;}
-.header-block div{height:50px;margin-right:36px}
+.header-block-logo div{height:50px;margin-right:36px}
+  section {
+       display: flex;
+       overflow-x: hidden;
+    }
+  .header-block-txt-animate{
+      font-size: 70px;
+      font-size: sans-serif;
+      line-height: 1.3;
+      padding: 24px 0;
+      white-space: nowrap;
+      display: inline-block;
+    }
+
+    .div1 {
+        animation: marquee1 20s infinite linear;
+        animation-delay: -20s;
+    }
+
+    .div2 {
+        animation: marquee2 20s infinite linear;
+        animation-delay: -10s;
+    }
+
+@keyframes marquee1 {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    @keyframes marquee2 {
+        0% {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(-200%);
+        }
+    }
