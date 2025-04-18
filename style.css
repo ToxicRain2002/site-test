@@ -7,7 +7,7 @@ header{max-width: 1920px;width: 100%;}
 .header-block-logo div:not(:last-child){margin-right:36px}
 pre{margin:0px;}
 section{display: flex;overflow-x: hidden;}
-.header-block-txt-animate{margin: 31px 0px 27px 0px;font-size: 48px;color: #0B68F0;line-height: 130%;white-space: nowrap;display: inline-block;}
+.header-block-txt-animate{margin: 31px 0px 27px 0px;font-size: 48px;color: #0B68F0;line-height: 130%;white-space: nowrap;display: inline-block;max-width: 960px;}
 .div1{animation: marquee1 20s infinite linear;animation-delay: -20s;}
 .div2{animation: marquee2 20s infinite linear;animation-delay: -10s;}
 @keyframes marquee1 {
