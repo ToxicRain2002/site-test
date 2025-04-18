@@ -5,7 +5,7 @@ header{max-width: 1920px;width: 100%;}
 .header-block-logo{display:flex;margin: 37px 42px 33px 36px;}
 .header-block-logo div{height:50px;}
 .header-block-logo div:not(:last-child){margin-right:36px;}
-.header-block-logo div img{width:100%;height:auto;}
+.header-block-logo div img{height:auto;}
 pre{margin:0px;}
 section{display: flex;overflow-x: hidden;}
 .header-block-txt-animate{margin: 31px 0px 27px 0px;font-size:48px;color: #0B68F0;line-height: 130%;white-space: nowrap;display: inline-block;}
